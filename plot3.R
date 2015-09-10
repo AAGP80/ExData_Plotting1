@@ -17,5 +17,5 @@ plot(select(subdata,dmyhms)[[1]],select(subdata,Sub_metering_1)[[1]],
 lines(select(subdata,dmyhms)[[1]],select(subdata,Sub_metering_2)[[1]],col="red")
 lines(select(subdata,dmyhms)[[1]],select(subdata,Sub_metering_3)[[1]],col="blue")
 legend("topright", lty=1, col=c("black","red","blue"),
-       legend = c("Sub metering_1", "Sub metering_2","Sub metering_3"))
+       legend = c("Sub_metering_1", "Sub_metering_2","Sub_metering_3"))
 dev.off() 
